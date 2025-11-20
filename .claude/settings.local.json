@@ -13,7 +13,9 @@
       "Bash(npx tsc:*)",
       "Bash(npm run lint)",
       "Bash(NUL)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: Complete e-commerce platform with frontend components and backend API\n\nImplemented a full-stack Next.js e-commerce platform for Tim''s Merch with:\n\nFrontend (17 Components):\n- UI components (Button, Input, Card, Badge)\n- Layout components (Header, Footer, Layout)\n- Product components (ProductCard, ProductGrid)\n- Cart components (CartItem, CartSummary)\n- Section components (Hero, Features, NewArrivals, DeliveryInfo, BusinessSection)\n- Fully responsive with Tailwind CSS\n- TypeScript type safety throughout\n- Accessibility features (ARIA labels, semantic HTML)\n\nBackend (10 API Endpoints):\n- Products API (list, single, search, categories)\n- Cart API (add, update, remove, get)\n- Checkout API (payment processing)\n- Orders API (create, list, get)\n- Zod validation on all inputs\n- Comprehensive error handling\n- Mock data with 12 products\n\nInfrastructure:\n- API client with type-safe functions\n- Custom agents (.claude/agents/) for component-builder, api-builder, code-reviewer, qa-engineer\n- Skills for test-generator and accessibility-checker\n- TypeScript configuration\n- Utility functions for calculations, formatting, generators, validators\n- Comprehensive documentation (API docs, component guides, installation guide)\n\nConfiguration:\n- Updated Next.js config for external images\n- Enhanced Tailwind config with custom theme\n- Added dependencies: zod, uuid\n\nNote: Code review identified security improvements needed for production (authentication, CSRF protection, rate limiting). Current implementation suitable for development/demo.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push origin develop)"
     ],
     "deny": [],
     "ask": []
