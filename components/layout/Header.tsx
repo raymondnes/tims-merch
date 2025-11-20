@@ -44,7 +44,7 @@ export function Header() {
 
             {/* Cart Icon */}
             <Link href="/cart">
-              <a className="relative p-2 hover:bg-gray-100 rounded-full transition-colors">
+              <a className="relative p-2 hover:bg-gray-100 rounded-full transition-colors" aria-label="View cart">
                 <Image src="/icons/cart.svg" alt="Cart" width={20} height={20} />
                 <span className="absolute -top-1 -right-1 bg-primary text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
                   0
